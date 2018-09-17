@@ -5,6 +5,14 @@
  * and return the total
  *
  */
+function total(arr){
+    let somme = 0;
+    for(let i=0; i< arr.length; i++){
+        somme+= arr[i];
+    }
+    return somme
+}
+
 
 
 //* Begin of tests
