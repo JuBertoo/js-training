@@ -15,7 +15,7 @@ function multiply(number1, number2){
         for(let i=0; i < number2; i++){
             mult += number1;
         }
-    }else if (number2 < 0) {
+    }else {
         for(let i=0; i > number2; i--){
             mult -= number1;
         }
